@@ -40,8 +40,8 @@ export class HapticsPage {
     this.hapticsImpact(HapticsImpactStyle.Light);
   }
 
-  hapticsVibrate() {
-    Plugins.Haptics.vibrate();
+  hapticsVibrate(...args) {
+    Plugins.Haptics.vibrate(...args);
   }
 
   hapticsSelectionStart() {

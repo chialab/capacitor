@@ -962,7 +962,7 @@ export interface HapticsPlugin extends Plugin {
   /**
    * Vibrate the device
    */
-  vibrate(): void;
+  vibrate(options: VibrateOptions): void;
   /**
    * Trigger a selection started haptic hint
    */
